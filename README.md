@@ -29,26 +29,23 @@
 - **Reporting**: Apache POI (Excel Generation)
 - **Build System**: Gradle with KSP (Kotlin Symbol Processing)
 
-## 📸 Screenshots
+## 📸 Screenshots & Demo
 
 | Dashboard | Visual Trends | Driver Pay |
 | :---: | :---: | :---: |
 | ![Dashboard Placeholder] | ![Trends Placeholder] | ![Pay Placeholder] |
 
+> **📺 Watch the Demo Video**: [Link to your video here]
+
 ## 🚀 Getting Started
 
-### Prerequisites
-- Android Studio Ladybug or newer.
-- Android SDK 33+.
-
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/benjaminkabula/TractorManager.git
-   ```
-2. Open the project in Android Studio.
-3. Sync the project with Gradle files.
-4. Run the app on an emulator or physical device (Min SDK 33).
+To use the app on your Android device:
+1. Download the latest **TractorManager.apk** from the [Releases](https://github.com/benjaminkabula/TractorManager/releases) section.
+2. Open the APK on your device and follow the prompts to install (ensure "Install from Unknown Sources" is enabled in settings).
+3. Launch the app and start managing your fleet!
+
+*(Note: Requires Android 13 or higher)*
 
 ## 📊 Usage Tips
 - **Daily Summaries**: To see data in the "Charts" section, ensure you click the **"Save Daily Summary"** button on the dashboard at the end of each work day.
@@ -59,3 +56,4 @@
 © 2026 **Benjamin Kabula Koikoi**. All rights reserved.
 
 Developed with ❤️ for the agricultural community.
+the agricultural community.
