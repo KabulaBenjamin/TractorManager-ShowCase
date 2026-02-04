@@ -31,9 +31,12 @@
 
 ## 📸 Screenshots & Demo
 
-| Dashboard | Visual Trends | Driver Pay |
+| Dashboard | Visual Trends | Payroll |
 | :---: | :---: | :---: |
-| ![Dashboard Placeholder] | ![Trends Placeholder] | ![Pay Placeholder] |
+| <img width="664" height="1932" alt="Dashboard" src="https://github.com/user-attachments/assets/4f299c6e-dfe3-463f-bfe7-08178563892d" />
+] <img width="720" height="1612" alt="VisualTrend" src="https://github.com/user-attachments/assets/ba4979b4-c278-4199-8297-694aac99020a" />
+ |<img width="720" height="1612" alt="Payroll 2" src="https://github.com/user-attachments/assets/dd33c428-7163-4c7a-9b75-624c9e7ccdc2" />
+ |
 
 > **📺 Watch the Demo Video**: 
 ## 🚀 Getting Started
