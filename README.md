@@ -1,61 +1,53 @@
-# TractorManager-ShowCase
-# TractorManager 🚜
+# TractorManager 🚜 | v1.0.0
 
-**TractorManager** is a specialized Android application designed for tractor owners and fleet managers to streamline the management of agricultural operations. It tracks customer jobs, business expenses, diesel consumption, and automates driver payroll calculations.
+**TractorManager** is a high-performance Android application built for tractor fleet owners and agricultural managers. It transforms manual bookkeeping into a data-driven operation by tracking jobs, expenses, diesel efficiency, and automated payroll in one seamless interface.
 
-## ✨ Key Features
+## ✨ Advanced Features
 
-- **Operational Dashboard**: Real-time overview of daily income, expenses, net cash flow, total acres worked, and diesel consumption.
-- **Customer & Job Management**: Log service types, locations, acreage, and payment status (Paid vs. Debt).
-- **Automated Driver Payroll**: 
-  - **Driver**: KES 350 per acre + KES 100 lunch allowance.
-  - **Assistant**: KES 300 base (if < 4 acres) or KES 500 base (if ≥ 4 acres) + KES 100 lunch allowance.
-  - One-click integration to save payroll as a business expense.
-- **Financial Analytics**: 
-  - **Monthly Stats**: Detailed text breakdown of income by service type.
-  - **Visual Trends**: 7-day bar charts and a full-month stretching line graph comparing Income vs. Expenses.
-- **Data Export**: Generate professional multi-sheet Excel (.xlsx) and CSV reports for bookkeeping.
-- **Dark Mode Support**: Fully compatible with system-wide light and dark themes.
-- **Offline First**: Powered by a local Room database to ensure data is accessible even in the field.
+### 💰 Automated Payroll & Sync
+- **Real-Time Auto-Sync**: The app automatically calculates pay for a **Driver** (350/acre) and **Two Assistants** (300/500 base) and logs them as expenses instantly.
+- **Meal Allowances**: Built-in KES 100 meal allowance per person per work day.
+- **Smart Recalculation**: Payroll entries update automatically if job acreage changes, ensuring 100% financial accuracy.
+
+### 📋 Intelligent Customer Records
+- **Conditional Fields**: Forms adapt dynamically—show **Acres** for Ploughing/Breaking, or **Trips & Material Type** (Sand, Bricks, etc.) for Transport.
+- **Customer Directory**: Searchable database showing lifetime statistics (Total acres worked, total paid) and job history for every customer.
+- **Payment Lifecycle**: Track advance payments, outstanding debts, and job completion status.
+
+### 🛠 Maintenance & Asset Health
+- **Service Logs**: Track oil changes, filter replacements, and repairs.
+- **Service Reminders**: AI-driven alerts notify you when a tractor has exceeded its work acreage and needs maintenance.
+
+### 📊 AI Insights & visual Analytics
+- **Proactive Intelligence**: The dashboard features an AI Insight row that alerts you to high fuel consumption, financial burn rates, and pending maintenance.
+- **Dynamic Charting**: Toggle trends between **Days, Months, and Years**. Includes a full-month stretching line graph for Income vs. Expenses.
+- **Efficiency Tracking**: Real-time monitoring of **Liters per Acre** and **Cost per Acre**.
+
+### 🛡 Data Security & Safety
+- **Backup & Restore**: Easily package your entire database and save it to **Gmail or Google Drive** to prevent data loss.
+- **Unique Constraints**: Advanced database rules prevent duplicate entries from skewing your financial calculations.
+- **Offline First**: Works anywhere without an internet connection using a local SQLite database.
 
 ## 🛠 Tech Stack
+- **UI**: Jetpack Compose (Material 3) with Dynamic Dark Mode.
+- **Language**: Kotlin.
+- **Architecture**: MVVM (Model-View-ViewModel).
+- **Database**: Room (SQL) with specialized sync logic.
+- **Concurrency**: Kotlin Coroutines & Flow.
+- **Reporting**: Apache POI for Multi-Sheet Excel Export.
 
-- **UI**: Jetpack Compose (Material 3)
-- **Language**: Kotlin
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Database**: Room Persistence Library
-- **Concurrency**: Kotlin Coroutines & Flow
-- **Navigation**: Navigation Compose
-- **Reporting**: Apache POI (Excel Generation)
-- **Build System**: Gradle with KSP (Kotlin Symbol Processing)
-
-## 📸 Screenshots & Demo
-
-| Dashboard | Visual Trends | Payroll |
-| :---: | :---: | :---: |
-| <img width="664" height="1932" alt="Dashboard" src="https://github.com/user-attachments/assets/4f299c6e-dfe3-463f-bfe7-08178563892d" />
-] <img width="720" height="1612" alt="VisualTrend" src="https://github.com/user-attachments/assets/ba4979b4-c278-4199-8297-694aac99020a" />
- |<img width="720" height="1612" alt="Payroll 2" src="https://github.com/user-attachments/assets/dd33c428-7163-4c7a-9b75-624c9e7ccdc2" />
- |
-
-> **📺 Watch the Demo Video**: 
 ## 🚀 Getting Started
 
 ### Installation
 To use the app on your Android device:
 1. Download the latest **TractorManager.apk** from the [Releases](https://github.com/benjaminkabula/TractorManager/releases) section.
-2. Open the APK on your device and follow the prompts to install (ensure "Install from Unknown Sources" is enabled in settings).
+2. Open the APK on your device and follow the prompts to install.
 3. Launch the app and start managing your fleet!
 
 *(Note: Requires Android 13 or higher)*
 
-## 📊 Usage Tips
-- **Daily Summaries**: To see data in the "Charts" section, ensure you click the **"Save Daily Summary"** button on the dashboard at the end of each work day.
-- **Excel Reports**: Shared reports are saved in the app's internal storage and can be shared via WhatsApp, Email, or Google Drive.
+> **📺 Watch the Demo Video**: [Link to your video here]
 
 ## 📜 License & Copyright
-
-© 2026 **Benjamin Kabula Koikoi**. All rights reserved.
-
-Developed with ❤️ for the agricultural community.
-the agricultural community.
+© 2026 **Benjamin Kabula Koikoi**. All rights reserved.  
+*Professional software for the global agricultural community.*
