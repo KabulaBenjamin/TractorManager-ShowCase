@@ -35,8 +35,7 @@
 | :---: | :---: | :---: |
 | ![Dashboard Placeholder] | ![Trends Placeholder] | ![Pay Placeholder] |
 
-> **📺 Watch the Demo Video**: [Link to your video here]
-
+> **📺 Watch the Demo Video**: 
 ## 🚀 Getting Started
 
 ### Installation
