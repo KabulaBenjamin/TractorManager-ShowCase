@@ -46,7 +46,7 @@ To use the app on your Android device:
 
 *(Note: Requires Android 13 or higher)*
 
-> **📺 Watch the Demo Video**: [Link to your video here]
+> **📺 Watch the Demo Video**: [Link coming soon]
 
 ## 📜 License & Copyright
 © 2026 **Benjamin Kabula Koikoi**. All rights reserved.  
