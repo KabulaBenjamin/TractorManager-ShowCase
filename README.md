@@ -1,58 +1,71 @@
-# TractorManager 🚜 | v1.0.0
+# TractorManager 🚜 | v3.0.0
 
-**TractorManager** is a high-performance Android application built for tractor fleet owners and agricultural managers. It transforms manual bookkeeping into a data-driven operation by tracking jobs, expenses, diesel efficiency, and automated payroll in one seamless interface.
+**TractorManager** is an enterprise-grade fleet management ecosystem for modern agricultural operations. Version 3.0.0 introduces **Cloud Connectivity**, allowing you to synchronize your entire business across multiple devices and team members in real-time.
 
-## 📺 Demo Video
-> **Watch the App in Action**: [https://youtu.be/HKWZM2CjDm4](https://youtu.be/HKWZM2CjDm4)
+## 🌟 New in Version 3.0.0: The Cloud & Connectivity Update
+
+### ☁️ Real-Time Cloud Synchronization
+- **Firebase Integration**: Your data is no longer limited to a single device. Records, bookings, and fleet status now sync instantly to the cloud.
+- **Multi-Device Access**: Log in on any smartphone to see your live business dashboard and current fleet status.
+- **Seamless Data Safety**: Cloud-based storage ensures you never lose your history during app upgrades or phone changes.
+
+### 🔐 Secure Team Authentication
+- **User Roles**: Log in as an **Owner** for full financial oversight or as a **Driver/Manager** to handle assigned bookings and daily logs.
+- **Protected Access**: Secure authentication via Firebase ensures your business data remains private.
+
+### 📄 Digital Invoicing & Logistics
+- **WhatsApp Receipts**: Generate and send instant job summaries to customers directly from the app.
+- **Hour Meter Tracking**: Track engine hours alongside acreage for high-precision engine maintenance and fuel efficiency analysis.
+- **Photo Expense Receipts**: Attach photos of spare parts and fuel invoices directly to your records for paperless accounting.
+
+### 🌤️ Live Weather Integration
+- **Real-time Forecasts**: View current weather conditions directly on the Dashboard and Add Customer screens to plan operations effectively.
 
 ---
 
-## ✨ Advanced Features
+## ✨ Core Features
 
-### 💰 Automated Payroll & Sync
-- **Real-Time Auto-Sync**: Automatically calculates pay for a **Driver** (350/acre) and **Two Assistants** (300/500 base) and logs them as expenses instantly.
-- **Meal Allowances**: Built-in KES 100 meal allowance per person per work day.
-- **Smart Recalculation**: Payroll entries update automatically if job acreage changes, ensuring 100% financial accuracy.
+### 🚜 Global Fleet Management
+- **Machine-Specific Tracking**: Every record—income, expenses, and maintenance—is tied to a specific tractor.
+- **Dashboard Filtering**: Toggle the entire app (Metrics, Charts, AI Insights) between "All Tractors" or a specific machine in your fleet.
 
-### 📋 Intelligent Customer Records
-- **Conditional Fields**: Forms adapt dynamically—show **Acres** for Ploughing/Breaking, or **Trips & Material Type** (Sand, Bricks, etc.) for Transport.
-- **Customer Directory**: Searchable database showing lifetime statistics and job history for every customer.
-- **Payment Lifecycle**: Track advance payments, outstanding debts, and job completion status.
+### 💰 Automated Payroll & Multi-Broker System
+- **Comprehensive Logic**: Automated pay for **Driver** (350/ac + 200/trip) and **Two Assistants** (300/500 base + 100/trip).
+- **Broker Commissions**: Link unlimited brokers to any job; the system logs a KES 100/acre commission for each automatically.
+- **Manual Control**: Review and add payroll entries to expenses with total financial oversight.
 
-### 🛠 Maintenance & Asset Health
-- **Service Logs**: Track oil changes, filter replacements, and repairs.
-- **Service Reminders**: AI-driven alerts notify you when a tractor has exceeded its work acreage and needs maintenance.
+### 📋 Precision GPS Surveying
+- **Offline Acreage Tool**: Measure field acreage by walking the perimeter. The app draws **filled irregular shapes** and uses the **Shoelace Formula** for engineering-grade accuracy—no internet required.
+- **GPS Integration**: Save job-site coordinates (Latitude/Longitude) directly to the booking for easy navigation.
 
-### 📊 AI Insights & Visual Analytics
-- **Proactive Intelligence**: Dashboard features an AI Insight row that alerts you to high fuel consumption and financial burn rates.
-- **Dynamic Charting**: Toggle trends between **Days, Months, and Years** with Income vs. Expenses line graphs.
-- **Efficiency Tracking**: Real-time monitoring of **Liters per Acre** and **Cost per Acre**.
+### 📊 Proactive AI Insights
+- **Business Consultant**: A dedicated AI row provides real-time reminders for refueling, debt collection, and predictive maintenance.
+- **Efficiency Metrics**: Dedicated screen monitoring **Liters per Acre** and **Cost per Acre** to identify high-performing machines.
+- **Dynamic Charting**: Toggle trends between **Weekly (Sunday Start)**, **Monthly**, and **Yearly**.
 
 ### 🛡 Data Security & Safety
-- **Backup & Restore**: Export your entire database to **Gmail or Google Drive**.
-- **Offline First**: Works anywhere without an internet connection using a local SQLite database.
+- **Backup & Restore**: Manually package your database to **Gmail or Google Drive** for redundant safety.
+- **Sync All History**: Rebuild your entire financial summary from raw records with one click.
+- **Unique Constraints**: Advanced database logic prevents duplicate entries from affecting your business computing.
 
 ## 🛠 Tech Stack
-- **UI**: Jetpack Compose (Material 3) with Dynamic Dark Mode.
-- **Language**: Kotlin.
-- **Architecture**: MVVM (Model-View-ViewModel).
-- **Database**: Room (SQL).
-- **Concurrency**: Kotlin Coroutines & Flow.
-- **Reporting**: Apache POI for Multi-Sheet Excel Export.
+- **Backend**: Firebase (Authentication, Firestore, Analytics).
+- **UI**: Jetpack Compose (Material 3) with Modern Tonal Styling.
+- **Language**: Kotlin + Coroutines/Flow.
+- **Database**: Room (Local) + Firestore (Cloud Sync).
+- **Networking**: Retrofit + OkHttp for Weather API.
+- **Geospatial**: Android Location Services (Offline GPS).
+- **Reporting**: Apache POI (Multi-Sheet Excel).
 
 ## 🚀 Getting Started
 
 ### Installation
-1. Download the latest **TractorManager.apk** from the [Releases](https://github.com/benjaminkabula/TractorManager/releases) section.
-2. Open the APK on your device and follow the prompts to install.
-3. *(Note: Requires Android 13 or higher)*
+1. Download the latest **TractorManager_V3.apk** from the [Releases](https://github.com/benjaminkabula/TractorManager/releases) section.
+2. Open the APK on your Android device (Min SDK 33 / Android 13+).
+3. Enable "Install from Unknown Sources" and start managing your fleet!
 
----
+> **📺 Watch the Demo Video**: [Link to your video here]
 
 ## 📜 License & Copyright
 © 2026 **Benjamin Kabula Koikoi**. All rights reserved.  
-*Professional software for the global agricultural community.*
-
----
-**Connect with me:**
-[LinkedIn](https://www.linkedin.com/in/koikoi-benjamin-2b9370162) | [Email](mailto:kabulabenjamin25@gmail.com)
+*Precision management for the modern agricultural entrepreneur.*
