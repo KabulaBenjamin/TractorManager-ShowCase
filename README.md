@@ -64,7 +64,7 @@
 2. Open the APK on your Android device (Min SDK 33 / Android 13+).
 3. Enable "Install from Unknown Sources" and start managing your fleet!
 
-> **📺 Watch the Demo Video**: [Link to your video here]
+> **📺 Watch the Demo Video**: the video link is coming.
 
 ## 📜 License & Copyright
 © 2026 **Benjamin Kabula Koikoi**. All rights reserved.  
