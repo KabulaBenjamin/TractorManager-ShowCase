@@ -60,7 +60,7 @@
 ## 🚀 Getting Started
 
 ### Installation
-1. Download the latest **TractorManager_V3.0.1.apk** from the [Releases](https://github.com/benjaminkabula/TractorManager-ShowCase/releases) section.
+1. Download the latest **TractorManager_V3.0.1.apk** from the [Releases](https://github.com/KabulaBenjamin/TractorManager-ShowCase/releases/tag/Version3.0.0) section.
 2. Open the APK on your Android device (Min SDK 33 / Android 13+).
 3. Enable "Install from Unknown Sources" and start managing your fleet!
 
